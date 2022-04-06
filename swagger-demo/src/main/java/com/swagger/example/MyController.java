@@ -10,6 +10,6 @@ public class MyController {
 
     @GetMapping(value = "/api/response")
     public ResponseEntity<?> response(){
-        return new ResponseEntity<>("Hello in Swagger with Spring boot",HttpStatus.OK);
+        return new ResponseEntity<>("c Hello in Swagger with Spring boot",HttpStatus.OK);
     }
 }
